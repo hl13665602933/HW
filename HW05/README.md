@@ -8,3 +8,17 @@
 - 依赖安装：
 ```bash
 pip install -r requirements.txt
+数据说明
+MNIST 数据集将在首次运行代码时自动下载至./data目录，无需手动下载。
+运行说明
+运行极简 CNN：
+bash
+运行
+python simple_cnn.py
+运行 LeNet-5：
+bash
+运行
+python train_lenet.py
+输出文件
+模型权重：simple_cnn_mnist.pth、lenet5_mnist.pth
+可视化结果：mnist_samples.png、predictions.png、training_loss.png、lenet5_training_loss.png
